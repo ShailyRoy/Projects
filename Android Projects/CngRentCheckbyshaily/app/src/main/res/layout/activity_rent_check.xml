@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:background="#fffcf9f2"
+    android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enter distance"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+
+            android:textSize="25dp" />
+
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tfnumber1" />
+
+
+
+
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Waiting Time"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:textSize="25dp"
+            />
+
+
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tfnumber2"
+            android:layout_gravity="center_horizontal" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:id="@+id/Tvresult"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:layout_marginBottom="10dp"
+        android:text="@string/empty" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rent"
+        android:id="@+id/button01"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onAddClick" />
+</LinearLayout>

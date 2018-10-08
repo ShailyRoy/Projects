@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.eontechnology.family.MainActivity22Activity"
+    >
+
+    <TextView
+        android:text="My Father"  android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginLeft="95dp"
+        android:textStyle="bold"
+        android:textColor="#ff8b590f"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        tools:context="com.example.eontechnology.family.MainActivity22Activity"
+        >
+        <ImageView
+            android:src="@drawable/baba"
+            android:layout_width="80dp"
+            android:layout_height="80sp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:text="Shailendra Nath Roy."
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textSize="25dp"
+
+            android:textColor="#ff8b590f"/>
+
+
+</LinearLayout>
+    <TextView
+        android:text="Degree:M.A.B.Ed in Bengal"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+
+        android:textColor="#ff8b590f"/>
+
+    <TextView
+        android:text="occupation: Retired Principal"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+
+        android:textColor="#ff8b590f" />
+
+
+    <TextView
+        android:text="District:Kurigram"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+
+        android:textColor="#ff8b590f"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        tools:context="com.example.eontechnology.family.MainActivity22Activity"
+        >
+    <TextView
+        android:text="Phone:01725181326"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textSize="25dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ff8b590f"
+        />
+
+    <Button
+        android:text="call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ff8b590f"
+        android:id="@+id/callButton"
+        android:background="#ffebebeb"
+        android:clickable="true"
+        />
+    </LinearLayout>
+</LinearLayout>

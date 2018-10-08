@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.eontechnology.family.MainActivity2Activity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="  Click the pictures for details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ff8b590f"
+        android:textIsSelectable="true" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.eontechnology.family.MainActivity2Activity"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.29"
+        android:layout_marginTop="10dp">
+         <Button
+             android:id="@+id/btnSwitch2"
+             android:layout_height="150dp"
+             android:layout_width="150dp"
+             android:background="@drawable/father"
+
+             android:scaleType="centerCrop"
+             android:focusableInTouchMode="false"
+             android:clickable="true" />
+
+         <Button
+             android:layout_marginLeft="20dp"
+
+             android:background="@drawable/mother"
+             android:layout_height="150dp"
+             android:layout_width="150dp"
+             android:id="@+id/btnSwitch3"
+             android:clickable="true" />
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.eontechnology.family.MainActivity2Activity"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.29">
+
+        <Button
+            android:background="@drawable/mypic"
+            android:layout_marginTop="0dp"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="centerCrop"
+            android:layout_weight="0.40"
+            android:id="@+id/btnSwitch4"
+            android:layout_gravity="center_horizontal"
+
+            android:clickable="true"
+            android:contentDescription="@android:string/ok" />
+
+    <Button
+        android:layout_marginLeft="20dp"
+
+        android:background="@drawable/dhiman"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+
+        android:id="@+id/btnSwitch5"
+        android:clickable="true" />
+
+    </LinearLayout>
+</LinearLayout>
